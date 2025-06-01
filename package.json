@@ -1,0 +1,14 @@
+{
+  "name": "mundopet-backend",
+  "version": "1.0.0",
+  "description": "Backend fake para o projeto Mundo Pet",
+  "main": "server.json",
+  "scripts": {
+    "start": "json-server --watch server.json --port 3333"
+  },
+  "author": "Gabriel Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0"
+  }
+}
