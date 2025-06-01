@@ -5,7 +5,12 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
+<<<<<<< HEAD
     "server": "json-server --watch server.json --port 3333"
+=======
+    "server": "json-server --watch server.json --port 3333 --static ./"
+
+>>>>>>> 2a3c0f8003093247e9827404950cc62478c0bb70
   },
   "dependencies": {
     "dayjs": "^1.11.13",
