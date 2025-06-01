@@ -4,7 +4,7 @@
   "description": "Backend fake para o projeto Mundo Pet",
   "main": "server.json",
   "scripts": {
-    "start": "json-server --watch server.json --port 3333"
+    "server": "json-server --watch server.json --host 0.0.0.0 --port $PORT"
   },
   "author": "Gabriel Nunes",
   "license": "ISC",
